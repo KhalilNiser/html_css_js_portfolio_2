@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Niser Development</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquerries.css">
+    <link rel="icon" type="image/x-icon" href="./images/icons/k_icon.png">
+    <!-- GOOGLE_FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,
+    100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,
+    400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+    <!-- FONT_AWESOME -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+</head>
+<body>
+    <!-- DESKTOP_NAV -->
+    <nav id="desktop-nav">
+        <!-- LOGO_DIV -->
+        <div class="logo">Khalil A. Niser</div>
+        <!-- UL_DIV -->
+        <div>
+            <!-- UL_LIST -->
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            <!-- END_UL_LIST -->
+            </ul>
+        <!-- END_UL_DIV The collapse of the 
+            american dream explained -->
+        </div>
+    <!-- END_DESKTOP_NAV -->
+    </nav>
+
+
+
+
+    <!-- HAMBURGER_NAV -->
+    <nav id="hamburger-nav">
+        <div class="logo">Khalil A. Niser</div>
+        <!-- HAMBURGER_MENU_DIV -->
+        <div class="hamburger-menu">
+            <!-- HAMBURGER_ICON: Javascript code -->
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <!-- Hamburger menu lines -->
+                <span></span>
+                <span></span>
+                <span></span>
+            <!-- END_HAMBURGER_ICON_DIV -->
+            </div>
+            <!-- MENU-LINKS_DIV: Following links
+            will open when menu icon is expanded -->
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            <!-- END_MENU-LINKS_DIV -->    
+            </div>
+        <!-- END_HAMBURGER_MENU_DIV -->
+        </div>
+    <!-- END_HAMBURGER_NAV -->
+    </nav>
+
+
+
+
+    <!-- PROFILE_SECTION -->
+    <section id="profile">
+        <!-- PICTURE_CONTAINER_DIV -->
+        <div class="section-pic-container">
+            <img src="./images/bright-future_2.jpg"
+            alt="Bright_Future">
+        <!-- END_PICTURE_CONTAINER_DIV -->
+        </div>
+        <!-- TEXT_DIV -->
+        <div class="section-text">
+            <!-- PARAGRAPH -->
+            <p class="section-text-p1">Developing For Today. 
+                Bridging For Tomorrow!<br>
+                It's Science Not Fiction
+            </p>
+             <!-- HEADING: Big Bold Letterings -->
+            <h1 class="title">Khalil Niser</h1>
+            <p class="section-text-p2">
+                Backend/Frontend Developer
+            </p>
+
+            <!-- BUTTON_CONTAINER -->
+            <div class="button-container">
+                <!-- RESUME_CV_BUTTON -->
+                <button class="button cv-button" 
+                onclick="window.open('./images/khalilResume_1.pdf')">
+                Download_CV
+                <!-- END_RESUME_BUTTON -->
+                </button>
+
+
+                <!-- CONTACT_BUTTON -->
+                <button class="button contact-button" 
+                onclick="location.href='./#contact'">
+                Contact
+                <!-- END_CONTACT_BUTTON -->
+                </button>
+            <!-- END_BUTTON_CONTAINER -->
+            </div>
+
+
+            <!-- SOCIALS_CONTAINER_DIV -->
+            <div id="socials-container">
+                <!-- LINKEDIN_ICON_URL -->
+                <img src="./images/icons/linkedin.png" 
+                alt="My_Linkedin_Profile" class="icon" 
+                onclick="location.
+                href='https://www.linkedin.com/in/khalil-niser-0i812'">
+                <!-- GITHUB_ICON_URL -->
+                <img src="./images/icons/github.png" 
+                alt="My_Github_Profile" class="icon" 
+                onclick="location.href='https://www.github.com/khalilniser'">
+            <!-- END_SOCIALS_CONTAINER_DIV -->
+            </div>
+        <!-- END_TEXT_DIV -->
+        </div>
+    <!-- END_PROFILE_SECTION -->
+    </section>
+
+
+
+    <!-- ABOUT_SECTION -->
+    <section id="about">
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <!-- SECTION_CONTAINER_DIV -->
+        <div class="section-container">
+            <!-- SECTION_PIC_CONTAINER_DIV -->
+            <div class="section-pic-container">
+                <img 
+                src="./images/profile_200.png" alt="Profile Picture"
+                class="about-pic">
+            <!-- END_SECTION_PIC_CONTAINER_DIV -->
+            </div>
+            <!-- ABOUT_DETAILS_CONTAINER_DIV -->
+            <div class="about-details-container">
+                <!-- ABOUT_CONTAINERS_DIV -->
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./images/icons/experience.png"
+                        alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ yrs<br>Frontend Developement</p>
+                        <p>10+ yrs<br>Backend Developement</p>
+                    </div>
+                    <!-- DETAILS_CONTAINER_DIV -->
+                    <div class="details-container">
+                            <img src="./images/icons/education-icon.png"
+                            alt="Eductation icon" class="icon">
+                            <h3>Education</h3>
+                            <p>B.Sc. Degree in Software Engineering</p>
+                            <p>AI Certified</p>
+                    <!-- END_DETAILS_CONTAINER_DIV -->
+                    </div>
+                <!-- END_ABOUT_CONTAINERS_DIV -->
+                </div>
+                <!-- TEXT_CONTAINER_DIV -->
+                <div class="text-container">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur 
+                        adipisicing elit. Itaque voluptate eligendi
+                         omnis. Illum libero omnis repudiandae 
+                         mollitia est, itaque architecto. Doloribus 
+                         alias eum esse earum id placeat atque illo 
+                         magni ducimus. Eligendi esse recusandae 
+                         repellendus nostrum modi tempora! Labore 
+                         error autem nesciunt, iure enim ut 
+                         exercitationem dolor dignissimos totam 
+                         ducimus.
+                    </p>
+                <!-- END_TEXT_CONTAINER_DIV -->
+                </div>
+            <!-- END_ABOUT_DETAILS_CONTAINER_DIV -->
+            </div>
+        <!-- END_SECTION_CONTAINER_DIV -->
+        </div>
+        <!-- DOWN_ARROW_ICON_IMAGE -->
+        <img src="./images/icons/down-arrow.png" 
+        alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./#experience'">
+    <!-- END_ABOUT_SECTION -->
+    </section>
+
+    <!-- FRONTEND_DEVELOPMENT -->
+    <!-- EXPERIENCE_ID_SECTION -->
+    <section id="experience">
+        <p class="section-text-p1">
+            Explore My
+        </p>
+        <!-- EXPERIENCE_H1_HEADING -->
+        <h1 class="title">Experience</h1>
+        <!-- EXPERIENCE_DETAILS_CONTAINER_DIV -->
+        <div class="experience-details-container">
+            <!-- ABOUT_CONTAINERS -->
+            <div class="about-containers">
+                <!-- DETAILS_CONTAINER_DIV -->
+                <div class="details-container">
+                    <!-- EXPERIENCE_SUB_TITLE_H2_HEADING -->
+                    <h2 class="experience-sub-title">
+                        Frontend Developement
+                    </h2>
+                    <!-- ARTICLE_CONTAINER -->
+                    <div class="article-container">
+                        <!-- ARTICLE_CHECKMARK_ICON_1 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_1 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_1 -->
+                        </article>
+
+                        <!-- ARTICLE_CHECKMARK_ICON_2 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_2 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_2 -->
+                        </article>
+
+                        <!-- ARTICLE_CHECKMARK_ICON_3 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_3 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_3 -->
+                        </article>
+
+                        <!-- ARTICLE_CHECKMARK_ICON_4 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_4 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_4 -->
+                        </article>
+
+                        <!-- ARTICLE_CHECKMARK_ICON_5 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_5 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>SAAS</h3>
+                                <p>Basic</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_5 -->
+                        </article>
+
+                        <!-- ARTICLE_CHECKMARK_ICON_6 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_6 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Basic</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_6 -->
+                        </article>
+                    <!-- END_ARTICLE_CONTAINER_DIV -->
+                    </div>
+                <!-- DETAILS_CONTAINER -->
+                </div>
+
+                <!-- BACKEND_DEVELOPMENT -->
+                <!-- DETAILS_CONTAINER_DIV -->
+                <div class="details-container">
+                    <!-- BACKEND_EXPERIENCE_SUB_TITLE -->
+                    <h2 class="experience-sub-title">
+                        Backend Developement
+                    </h2>
+                    <!-- ARTICLE_CONTAINER_DIV -->
+                    <div class="article-container">
+                        <!-- ARTICLE_CHECKMARK_ICON_1 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_1 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_1 -->
+                        </article>
+
+                        <!-- ARTICLE_CHECKMARK_ICON_2 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_2 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_2 -->
+                        </article>
+
+                        <!-- ARTICLE_CHECKMARK_ICON_3 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_3 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_3 -->
+                        </article>
+
+                        <!-- ARTICLE_CHECKMARK_ICON_4 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_4 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_4 -->
+                        </article>
+
+                        <!-- ARTICLE_CHECKMARK_ICON_5 -->
+                        <article>
+                            <!-- CHECKMARK_ICON_IMAGE_5 -->
+                            <img 
+                            src="./images/icons/checkmark.png"
+                            alt="Experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        <!-- END_ARTICLE_CHECKMARK_ICON_5 -->
+                        </article>
+                    <!-- END_ARTICLE_CONTAINER_DIV -->
+                    </div>
+                <!-- END_DETAILS_CONTAINER_DIV -->
+                </div>
+            <!-- END_ABOUT_CONTAINERS -->
+            </div>
+        <!-- END_EXPERIENCE_DETAILS_CONTAINER -->
+        </div>
+        <!-- ARROW_ICON_IMAGE -->
+        <img src="./images/icons/down-arrow.png" 
+        alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./#projects'">
+    <!-- FRONTEND/BACKEND_EXPERIENCE -->
+    <!-- END_EXPERIENCE_SECTION -->
+    </section>
+
+
+
+    <!-- PROJECTS_SECTION -->
+    <section id="projects">
+        <p class="section-text-p1">
+            Browse My Recent
+        </p>
+        <!-- PROJECTS_H1_HEADING -->
+        <h1 class="title">Projects</h1>
+        <!-- EXPERIENCE_DETAILS_CONTAINER_DIV -->
+        <div class="experience-details-container">
+            <!-- ABOUT_CONTAINER -->
+            <div class="about-containers">
+                <!-- DETAILS/COLOR_CONTAINER_DIV -->
+                <div class="details-container 
+                color-container">
+                    <!-- ARTICLE_CONTAINER_DIV -->
+                    <div class="article-container">
+                    <!-- PROJECT_1_SCREENSHOT_IMAGE -->
+                    <img 
+                    src="./images/screenshots/project-1.png"
+                    alt="Project 1"
+                    class="project-img">
+                    <!-- ABOUT_CONTAINER_DIV -->
+                    </div>
+                    <!-- PROJECT_ONE_H2_HEADING -->
+                    <h2 class="experience-sub-title 
+                    project-title">
+                        Project One</h2>
+                    <!-- BUTTON_CONTAINER_DIV -->
+                    <div class="button-container">
+                        <!-- BUTTON/CV-BUTTON/PROJECT_
+                            BUTTON -->
+                        <button class="button 
+                        cv-button project-button" 
+                        onclick="location.
+                        href='https://github.com/khalilniser'">
+                        
+                        Github
+                        <!-- END_BUTTON/CV-BUTTON/PROJECT_
+                            BUTTON -->
+                        </button>
+                        <!-- LIVE_DEMO_BUTTON_ONE -->
+                        <button class="button cv-button 
+                        project-button" 
+                        onclick="location.
+                        href='https://github.com/khalilniser'">
+                        
+                        Live Demo
+                        <!-- END_LIVE_DEMO_BUTTON_ONE -->
+                        </button>
+                    <!-- END_BUTTON_CONTAINER_DIV -->
+                    </div>
+                <!-- DETAILS/COLOR_CONTAINERS_DIV -->
+                </div>
+
+                <!-- PROJECT_2 -->
+                <!-- DETAILS/COLOR_CONTAIERS_DIV -->
+                <div class="details-container 
+                color-container">
+                    <!-- ARTICLE_CONTAINER_DIV -->
+                    <div class="article-container">
+                        <!-- PROJECT-2_SCREENSHOT_IMAGE -->
+                        <img 
+                        src="./images/screenshots/project-2.png"
+                        alt="Project 2"
+                        class="project-img">
+                    <!-- END_ARTICLE_CONTAINER_DIV -->
+                    </div>
+                    <!-- PROJECT-TWO_H2_HEADING -->
+                    <h2 class="experience-sub-title 
+                    project-title">
+                    Project Two</h2>
+                    <!-- BUTTON_CONTAINER_DIV -->
+                    <div class="button-container">
+                        <!-- BUTTON/CV-BUTTON/PROJECT
+                            _BUTTON -->
+                        <button class="button cv-button 
+                        project-button" onclick="location.
+                        href='https://github.com/khalilniser'">
+                        
+                        Github
+                        <!-- END_BUTTON/CV-BUTTON/PROJECT
+                            _BUTTON -->
+                        </button>
+                        <!-- LIVE_DEMO_BUTTON_TWO -->
+                        <button class="button cv-button 
+                        project-button" 
+                        onclick="location.
+                        href='https://github.com/khalilniser'">
+                        
+                        Live Demo
+                        <!-- END_LIVE_DEMO_BUTTON_TWO -->
+                        </button>
+                    <!-- END_BUTTON_CONTAINER_DIV -->
+                    </div>
+                <!-- END_DETAILS/COLOR_CONTAINERS_DIV -->
+                </div>
+                <!-- DETAILS/COLOR_CONTAINERS_DIV -->
+                <div class="details-container 
+                color-container">
+                    <!-- ARTICLE_CONTAINER -->
+                    <div class="article-container">
+                        <!-- PROJECT-3_SCREENSHOT_IMAGE -->
+                        <img 
+                        src="./images/screenshots/project-4.png"
+                        alt="Project 3"class="project-img">
+                    </div>
+                    <!-- PROJECT_THREE_H2_HEADING -->
+                    <h2 
+                    class="experience-sub-title 
+                    project-title">
+                    Project Three</h2>
+                    <!-- BUTTON_CONTAINER_DIV -->
+                    <div class="button-container">
+                        <!-- BUTTON/CV-BUTTON/PROJECT
+                            _BUTTON -->
+                        <button class="button cv-button 
+                        project-button" 
+                        onclick="location.
+                        href='https://github.com/khalilniser'">
+                        
+                        Github
+                        <!-- END_BUTTON/CV-BUTTON/PROJECT
+                            _BUTTON -->
+                        </button>
+                        <!-- LIVE_DEMO_THREE -->
+                        <button class="button cv-button project-button" 
+                        onclick="location.
+                        href='https://github.com/khalilniser'">
+                        
+                        Live Demo
+                        <!-- END_LIVE_DEMO_THREE -->
+                        </button>
+                    <!-- END_BUTTON_CONTAINER_DIV -->
+                    </div>
+                <!-- END_DETAILS/COLOR_CONTAINERS_DIV -->
+                </div>
+            <!-- END_ABOUT_CONTAINER -->
+            </div>
+        <!-- END_EXPERIENCE_DETAILS_CONTAINER_DIV -->
+        </div>
+        <!-- ARROW_2_IMAGE -->
+        <img src="./images/icons/down-arrow.png" 
+        alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./#projects'">
+    <!-- END_PROJECTS_SECTION -->
+    </section>
+
+    <!-- CONTACT_SECTION -->
+    <section id="contact">
+        <p class="section-text-p1">Get-In-Touch</p>
+        <!-- CONTACT ME_H1_HEADING -->
+        <h1 class="title">Contact Me</h1>
+        <!-- CONTACT_INFO_UPPER_CONTAINER_DIV -->
+        <div class="contact-info-upper-container">
+            <!-- CONTACT_INFO_CONTAINER-1_DIV -->
+            <div class="contact-info-container">
+                <!-- EMAIL_ICON_IMAGE -->
+                <img src="./images/icons/email-3.png" 
+                alt="Email icon" class="icon 
+                contact-icon email-icon">
+                <p><a href="mailto:kaliniser@mail.com">
+                    kaliniser@gmail.com
+                </a></p>
+            <!-- END_CONTACT_INFO_CONTAINER_DIV -->
+            </div>
+            <!-- CONTACT_INFO_CONTAINER_DIV-2 -->
+            <div class="contact-info-container">
+                <img src="./images/icons/linkedin.png" 
+                alt="Linkedin icon" class="icon contact-icon">
+                <p><a 
+                    href="https://www.linkedin.com/in/khalil-niser-0i812">
+                    Linkedin
+                </a></p>
+            <!-- END_CONTACT_INFO_CONTAINER_DIV-2 -->
+            </div>
+        <!-- END_CONTACT_INFO_UPPER_CONTAINER_DIV -->
+        </div>
+    <!-- END_CONTACT_SECTION -->
+    </section>
+
+
+    <!-- FOOTER_SECTION -->
+    <footer>
+        <!-- NAV -->
+        <nav>
+            <!-- NAV_LINKS_CONTAINER_DIV -->
+            <div>
+            <!-- UNORDERED_LIST_UL -->
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            <!-- END_UL_DIV -->
+            </ul>
+        
+            <!-- END_NAV_LINKS_CONTAINER -->
+            </div>
+        <!-- END_NAV -->
+        </nav>
+        <p>Copyright &#169; 2024 Khalil A. Niser 
+            All Rights Reserved.</p>
+    <!-- END_FOOTER_SECTION -->
+    </footer>
+
+    
+
+    <script src="./js/script.js"></script>
+
+    <!-- JQUERRY -->
+    <!--<script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin = "anonymous"></script>-->
+
+    <!-- POPPER_JAVASCRIPT -->
+    <script src = "https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" 
+    integrity = "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin = "anonymous"></script>
+
+    <!-- BOOTSTRAP_JS -->
+    <!--<script src = "https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" 
+    integrity = "sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin = "anonymous"></script>-->
+
+    <!-- FONT_AWESOME_CDN -->
+    <link rel = "stylesheet" 
+    href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</body>
+</html>
