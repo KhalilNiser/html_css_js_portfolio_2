@@ -191,6 +191,12 @@ is dsektop size. the menu icon will
 
 
 
+
+
+
+
+
+/*        ---- PROFILE_CV-RESUME_SECTION ---- */
 /*      ---- SECTIONS ---- */
 section 
 {
@@ -323,6 +329,15 @@ section
 {
     gap: 1rem;
 }
+/*        ---- END_PROFILE_CV-RESUME_SECTION ---- */
+
+
+
+
+
+
+
+
 
 
 /*      ---- STYLING ---- */
@@ -489,8 +504,8 @@ section
   .contact-info-container 
   {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     gap: 0.5rem;
     margin: 1rem;
   }
@@ -518,6 +533,7 @@ section
   footer p 
   {
     text-align: center;
+    font-size: small;
   }
 
 
